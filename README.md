@@ -1,13 +1,13 @@
 # 🏠 Boston Housing Price Prediction
 
-A *Python machine learning project* to predict Boston housing prices. Easily *train, test, and run predictions* using prepared scripts and notebooks.
+A **Python machine learning project** to predict Boston housing prices. Easily *train, test, and run predictions* using prepared scripts and notebooks.
 
 ---
 
 ## Features
 
 - Train multiple regression models (Linear Regression, etc.)  
-- Save and load trained models (.pkl) for quick predictions  
+- Save and load trained models ('.pkl') for quick predictions  
 - Predict housing prices using Python scripts or Jupyter notebooks  
 - Explore dataset and model performance in notebooks  
 - Clean and organized project structure  
@@ -50,39 +50,51 @@ source .venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-Run scripts
-Train all models:
+```
 
-bash
-Copy code
+ ### Run scripts
+* Train all models:
+
+```bash
 python train_boston_models_all.py
-Run prediction app:
+```
 
-bash
-Copy code
+* Run prediction app:
+
+```bash
 python app.py
-Open and experiment in Jupyter notebook:
+```
 
-bash
-Copy code
+* Open and experiment in Jupyter notebook:
+
+```bash
 jupyter notebook "Linear Regression_Train-Save-Test.ipynb"
-Deliverables
-Trained regression models for Boston Housing dataset
+```
 
-Saved model files (.pkl) for fast predictions
+---
 
-Scripts and notebooks for training, testing, and predicting
+## Deliverables
 
-Dataset and feature metadata included
+* Trained regression models for Boston Housing dataset
 
-Learning Outcomes
-Understand regression algorithms and their implementation in Python
+* Saved model files ('.pkl') for fast predictions
 
-Work with datasets and preprocessing for machine learning
+* Scripts and notebooks for training, testing, and predicting
 
-Save and load models for real-world applications
+* Dataset and feature metadata included
 
-Use Jupyter notebooks for analysis and experimentation
+ ---
 
-Organize project files for a clean, reproducible workflow
+## Learning Outcomes
 
+* Understand regression algorithms and their implementation in Python
+
+* Work with datasets and preprocessing for machine learning
+
+* Save and load models for real-world applications
+
+* Use Jupyter notebooks for analysis and experimentation
+
+* Organize project files for a clean, reproducible workflow
+
+---
